@@ -2,26 +2,91 @@ body {
     background-color: #369683;
 }
 
+.homepage {
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+}
 
 nav, a {
     text-decoration: none;
     color: #edf5e2;
     text-align: right;
-    padding-top: 60px;
-    padding-right: 40px;
-    font-family: ballinger, sans-serif;
-    font-weight: 400;
+    padding-top: 50px;
+    padding-right: 35px;
+    font-family: gopher, sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 15pt;
 
   }
+
+  nav a:hover {
+    color: #1c3a6a;
+    text-decoration: none;
+  }
+
+ div p {
+    font-size: 12pt;
+    color: #edf5e2;
+    font-family: gopher, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 50px;
+  }
+
   h1 {
       color: #edf5e2;
     font-family: gopher, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 110pt;
-    padding-top: 90px;
+    padding-top: 180px;
     padding-left: 60px;
   }
- 
+  h1:hover {
+    color: #70c48f;
+    text-decoration: none;
+  }
+
+  marquee {
+    color: #edf5e2;
+    font-family: gopher, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70pt;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+  .grid-2 {
+    display: flex;
+  }
+  
+  .grid-2 section {
+    padding: 50px;
+    padding-top: 70px;
+  }
+  
+  .page1-a {
+    flex: 50%;
+  }
+  
+  .page1-b {
+    flex: 50%;
+  }
+
+  .crystal {
+    color: #402d2d;
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+  }
+  
+  .crystal .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
