@@ -32,6 +32,7 @@ nav, a {
     font-weight: 500;
     font-style: normal;
     padding: 50px;
+    background-color: #1c3a6a;
   }
 
   h1 {
@@ -55,12 +56,13 @@ nav, a {
     font-style: normal;
     font-size: 70pt;
     text-align: center;
+    padding-top: 10px;
   }
   img {
     width: 100%;
   }
   .grid-2 {
-    display: flex;
+    display: flex; 
   }
   
   .grid-2 section {
@@ -76,17 +78,7 @@ nav, a {
     flex: 50%;
   }
 
-  .crystal {
-    color: #402d2d;
-    padding: 40px 0;
-    font-weight: 800;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    overflow: hidden;
+  img {
+  padding-top: 20px;
   }
   
-  .crystal .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
